@@ -244,4 +244,15 @@ export const MENU_ITEMS: NbMenuItem[] = [
       },
     ],
   },
+  {
+    title: 'Pionex',
+    icon: 'money-bill',
+    link: '/pages/pionex',
+    children: [
+      {
+        title: 'Screener',
+        link: '/pages/pionex/screener',
+      },
+    ],
+  },
 ];

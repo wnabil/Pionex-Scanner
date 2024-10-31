@@ -69,6 +69,11 @@ const routes: Routes = [{
         .then(m => m.MiscellaneousModule),
     },
     {
+      path: 'pionex',
+      loadChildren: () => import('./pionex/pionex.module')
+        .then(m => m.PionexModule),
+    },
+    {
       path: '',
       redirectTo: 'dashboard',
       pathMatch: 'full',
